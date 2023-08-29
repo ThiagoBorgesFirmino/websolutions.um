@@ -1,0 +1,303 @@
+
+:root{
+    --cor-01: #1B6B93; 
+    --cor-02: #F4F4F4;
+    --cor-03: #164B60; 
+    --cor-04: #555555; 
+    --cor-05: #4FC0D0;
+    --branco: #FFFFFF;
+    --preto:  #000000;
+    --fonte:  #164B60;
+    --car:    #A2FF86;
+}
+.home_selected, .sobre_selected, .blog_selected, .contato_selected{
+    color: var(--cor-01) !important;
+}
+.cookie-div span, span a, .divi-menu .show-all span, .header-menu .conteudo-menu>ul>li>a {
+    color: var(--branco);
+}
+.logo-header{
+    width: 80%;
+}
+.d-car{
+    background-image: url(../img/assets/cart.png);
+}
+.header{
+    background-color: var(--branco);
+}
+.topo-header{
+    background-color: var(--cor-02);
+}
+span.span-tel, .topo-header a{
+    color: var(--fonte);
+}
+.divi-menu .show-all{
+    cursor: pointer;
+}
+.divi-menu .show-all .fa{
+    color: var(--branco);
+    margin-right: 10px;
+}
+/* .d-busca-header .icon-busca .icone-from-busca{
+    background-image: url(../img/assets/sprite.png);
+} */
+.header-menu{
+    background-color: var(--cor-01);
+}
+.d-busca-header .icon-busca {
+    background-color: var(--cor-01);
+    top: 2px;
+}
+.header-menu .menu-prod, .header-menu .conteudo-menu ul li ._subcat{
+    background-color: var(--cor-02);
+    border-top: 6px solid var(--cor-01);
+}
+.header-menu .menu-prod ul li a, .header-menu .conteudo-menu ul li ._subcat li a{
+    color: var(--cor-04);
+}
+.header-menu .menu-prod ul li a:hover, .header-menu .conteudo-menu ul li ._subcat li a:hover{
+    color: var(--branco);
+    background-color: var(--cor-03);
+}
+.d-busca-header .input_busca_form {
+    border: 3px solid var(--cor-01);
+}
+.divi-menu{
+    background-color: var(--fonte);
+    /* margin-right: 10px; */
+}
+.container_destaques_promocao_index{
+    background-color: var(--cor-01);
+}
+.container_destaques_promocao_index .conteudo_destaque ul li.selecionado a{
+    background-color: var(--cor-03);
+    color: var(--branco);
+}
+/* .informacaoutil{
+    background-color: var(--cor-04);
+} */
+.div-video-home{
+    background-color: var(--cor-02);
+}
+.footer{
+    border-top: 4px solid var(--cor-02);
+    background-color: var(--cor-02);
+    margin-top: 0;
+}
+.logo-endereco .div-end .title, .logo-endereco .div-end .tel, .logo-endereco .div-end .end, .menu-footer ._title, .menu-footer ul li a{
+    color: var(--cor-01);
+}
+.logo-endereco .logo-rodape{
+    max-width: 280px;
+}
+.footer .menu_footer{
+    background-image: url(../img/logo/logo-background.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+}
+.sub-footer{
+    background-color: var(--cor-03);
+}
+.footer ._daddos>div>div.selossl-footer{
+    background-image: url(../img/logo/logo-background.png);
+    background-repeat: no-repeat;
+    background-size: 160px;
+}
+.redes-sociais-flutuantes{
+    background-color: var(--cor-01);
+}
+.produto{
+    border: 3px solid transparent;
+}
+/* .produto:hover{
+    border: 3px solid var(--cor-04);
+} */
+.section-login-header .login_button{
+    background-color: var(--cor-04);
+    border: 1px solid var(--cor-04);
+}
+.section-cat-destaque-footer{
+    background-color: var(--cor-01);
+}
+.header-menu .d-minha-conta-mobile{
+    background-color: var(--cor-01);
+    border-top: 1px solid var(--cor-01)
+}
+.conteudo-mobile{
+    background-color: var(--cor-01);
+}
+.span-car{
+    background-color: var(--car);
+}
+.span-car table tr td{
+    color: var(--preto);
+}
+.detalhe .conteudo-descricao .container_btn .carrinho_detalhe{
+    background-image: url(../img/assets/cart-icon.png);
+}
+section.section-destaque-datacomemorativa, section.section-maisvistos{
+    background-color: var(--cor-01);
+}
+section.section-destaque-datacomemorativa .titulo, section.section-maisvistos .titulo{
+    color: var(--branco);
+    font-weight: 800;
+}
+section.section-maisvistos .titulo .maisvistos_swiper-pagination .swiper-pagination-bullet, section.section-destaque-datacomemorativa .titulo .categoriadestaque_swiper-pagination .swiper-pagination-bullet{
+    border: 1px solid var(--cor-05);
+}
+section.section-maisvistos .titulo .maisvistos_swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active, section.section-destaque-datacomemorativa .titulo .categoriadestaque_swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{
+    border-color: var(--cor-05);
+}
+section.section-maisvistos .titulo .maisvistos_swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active:before, section.section-destaque-datacomemorativa .titulo .categoriadestaque_swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active:before{
+    background-color: var(--cor-05);
+}
+
+/*BOTAO*/
+.conteudo-cadastro .botao-padrao, .conteudo-contato .conteudo-form .bt-contato, .detalhe .conteudo-descricao .container_btn .bt-padrao, .div-bt .bt,  .erro404 .btn-home, .add-comentario, .texto-finalizado .btn-primary, #finaliza_desconectado, #enviar_form{
+    background-color: var(--fonte) !important;
+    border: 1px solid var(--fonte) !important;
+    color: var(--branco) !important;
+}
+
+/*BOTAO*/
+.container-institucional, .erro404, .breandcumbs-erro{
+    background-color: var(--cor-04);
+}
+.breandcumbs-erro{
+    margin-bottom: 0;
+}
+/* CARRINHO */
+.titulo-listagem ul li{
+    font-weight: 600;
+    color: #000;
+}
+/* .titulo-listagem, .produto-carrinho{
+    border-bottom: 3px solid var(--cor-04);
+} */
+.produto-carrinho .fa-trash{
+    color: var(--cor-04);
+    font-size: 32px;
+}
+.car-inputs{
+    border-radius: 0;
+}
+/* CARRINHO */
+.container_destaques_promocao_index .row{
+    margin: 0;
+}
+
+.divi-menu .show-all span, .header-menu .conteudo-menu>ul>li>a{
+    color: var(--branco);
+}
+.text-prod .title_produto, .text-prod .ref_produto, .detalhe .conteudo-descricao .nome-ref-prod .nome, .detalhe .conteudo-descricao .nome-ref-prod .sku, .detalhe .conteudo-descricao .desc-prod span, .detalhe .conteudo-descricao .qtd-minima span, .detalhe .conteudo-descricao span.especificacoes, .detalhe .conteudo-descricao .container-cor small, .d-valores small, .relacionados .title span{
+    color: var(--preto);
+}
+.detalhe .conteudo-descricao span.especificacoes.valor{
+    color: var(--cor-01);
+}
+/**FEED INSTAGRAM**/
+.faixa-rede-sociais{
+    margin-top: 25px;
+    background-color: var(--cor-01);
+    padding: 14px 10px;
+}
+.faixa-rede-sociais h3{
+    color: var(--branco);
+    font-weight: 800;
+    font-size:18px;
+}
+.conteudo-feed{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+}
+.conteudo-feed .d-feed{
+    width: 31%;
+    overflow:hidden; 
+    border:4px solid var(--cor-02);
+    transition-duration:800ms;
+}
+.conteudo-feed .d-feed:hover{
+    border:4px var(--cor-02) solid; 
+    transition-duration:800ms
+}
+.header-menu .d-logo-mobile{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.title-post h2{
+    color: var(--cor-04);
+}
+/**SOBRE**/
+.conteudo-contato .conteudo-dados .d-caixa:last-child{
+    background-color: var(--cor-01);
+}
+.conteudo-contato .conteudo-dados .d-caixa .title, .conteudo-contato .conteudo-dados .d-caixa a, .conteudo-contato .conteudo-dados .d-caixa span{
+    color: var(--branco);
+}
+.conteudo-contato .conteudo-dados .d-caixa .icone{
+    border:4px solid  var(--cor-05);
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+}
+.conteudo-contato .fa{
+    color: var(--cor-05);
+    position: relative;
+    top: 12%;
+}
+.conteudo-contato .fa-envelope-o{
+    top: 20%;
+}
+.conteudo-contato .telefone-icon{
+    background-image: url(../img/assets/telefone-icon.png);
+    background-position: 12px 13px;
+}
+.conteudo-contato .yt-icon, .fb-icon, .insta-icon{
+    color: var(--branco) !important;
+}
+@media(max-width:991px){
+    .header-menu .d-logo-mobile img, .conteudo-top-mobile img{
+        width: 35%;
+        margin: 8px auto;
+    }
+    
+    .header-menu .menu-prod{
+        left: 0;
+    }
+    .divi-menu{
+        margin-right: 0;
+        background-color: var(--branco);
+    }
+    .header-menu{
+        background-color: var(--branco);
+    }
+    .d-car{
+        background-image: url(../img/assets/cart.png);
+    }
+    .header-menu .conteudo-menu ul {
+        background: var(--branco);
+    }
+    .header-menu .conteudo-menu ul li{
+        border-bottom: 1px solid var(--cor-03);
+    }
+    .header-menu .conteudo-menu ul>li>a, .link_com_filho .fa-categoria{
+        color: var(--fonte);
+    }
+    .header-menu .conteudo-menu ul .divi-menu>a b{
+        color: var(--fonte);
+    }
+    .logo-endereco .div-end .title, .logo-endereco .div-end .tel, .logo-endereco .div-end .end{
+        color: var(--fonte);
+    }
+    .divi-menu .show-all span, .header-menu .conteudo-menu>ul>li>a{
+        color: var(--fonte);
+    }
+    .header-menu .menu-prod .sub-menu .menu-sub li a span{
+        color: var(--fonte);
+    }
+}
